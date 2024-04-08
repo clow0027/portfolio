@@ -1,19 +1,4 @@
-:root {
-    --bs-orange: #EF6115;
-    --bs-orange-rgb:rgb(239, 97, 21);
-    --bs-green: #649420;
-    --bs-green-rgb:rgb(100, 148, 32);
-    --bs-purple: #D477DF;
-    --bs-purple-rgb:rgb(212, 119, 223);
-    --bs-light: #EECFBC;
-    --bs-light-rgb:rgb(238, 207, 188);
-    --bs-dark:#111111;
-    --bs-dark-rgb:rgb(17, 17, 17);
-}
 
-#navbarTogglerDemo02{
-    color: #EECFBC;
-}
 
 
 
