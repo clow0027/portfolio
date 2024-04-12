@@ -74,8 +74,23 @@
               </p>
             </div>
             <div class="col-12 col-md-8 clearfix">
-              <img src="images/LauraClowBusinessCard2024-992_x_592.jpeg" alt="Picture of Laura Clow"
-                class="img-fluid">
+              <picture>
+                <!-- 992px viewport -->
+                <source srcset="images/LauraClowBusinessCard2024-992_x_567.png,
+                                images/LauraClowBusinessCard2024-1984_x_1152.jpeg 2x,
+                                images/LauraClowBusinessCard2024-2976_x_1701.jpeg 3x"
+                        media="(min-width:992px)" />
+            
+                <!-- 576px viewport -->
+                <source srcset="images/LauraClowBusinessCard2024-576_x_329.png,
+                                images/LauraClowBusinessCard2024-1152_x_658.jpeg 2x,
+                                images/LauraClow_SelfPortrait-1728_x_987.jpeg 3x"
+                        media="(min-width:576px)" />
+            
+                <!-- Default source -->
+                <img src="images/LauraClowBusinessCard2024-992_x_567.png" alt="Front of Business Card" class="img-fluid">
+              </picture>
+              
             </div>
           </div>
         </div>
