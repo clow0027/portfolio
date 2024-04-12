@@ -77,8 +77,23 @@
                 <p>My utmost goal is to help people tell their stories and spread their lore.</p>
               </div>
               <div class="col-12 col-md-8 clearfix">
-                <img src="images/AboutMePic-892_x_592.jpeg" alt="Picture of Laura Clow"
-                  class="img-fluid">
+                <picture>
+                  <!-- 992px viewport -->
+                  <source srcset="images/AboutMePic-992_x_1076.png,
+                                  images/AboutMePic-1984_x_2152.jpeg 2x,
+                                  images/AboutMePic-2976_x_3228.jpeg 3x"
+                          media="(min-width:992px)" />
+              
+                  <!-- 576px viewport -->
+                  <source srcset="images/LauraClowBusinessCard2024-576_x_624.png,
+                                  images/LauraClowBusinessCard2024-1152_x_1248.jpeg 2x,
+                                  images/LauraClow_SelfPortrait-1728_x_1872.jpeg 3x"
+                          media="(min-width:576px)" />
+              
+                  <!-- Default source -->
+                  <img src="images/AboutMePic-992_x_1076.png" alt="Picture of Laura Clow" class="img-fluid">
+                </picture>
+                
               </div>
             </div>
           </div>
