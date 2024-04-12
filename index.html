@@ -115,8 +115,21 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="card rounded-0 border-0">
-              <img src="/images/LovePotion-500_x_300.jpeg" class="card-img-top rounded-0"
-                alt="digital drawing of love potion">
+              <picture>
+                <!-- 576px viewport -->
+                <source srcset="images/LovePotion-576_x_576.jpeg,
+                                images/LovePotion-1152_x_1152.jpeg 2x,
+                                images/LovePotion-1728_x_1728.jpeg 3x"
+                        media="(min-width:576px)" />
+                <!-- 390px viewport -->
+                <source srcset="images/LovePotion-390_x_390.jpeg,
+                                images/LovePotion-780_x_780.jpeg 2x,
+                                images/LovePotion-1170_x_1170.jpeg 3x"
+                        media="(min-width:390px)" />
+                <!-- Default source -->
+                <img src="images/LovePotion-576_x_576.jpeg" alt="Picture of Laura Clow" class="img-fluid">
+              </picture>
+        
               <div class="card-body">
                 <h3 class="card-title">Love Potion</h3>
                 <p class="card-text">A 'Procreate' drawing of a love potion.</p>
