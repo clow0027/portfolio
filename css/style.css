@@ -4,22 +4,89 @@
     --bs-purple: #D477DF;
     --bs-light: #EECFBC;
     --bs-dark:#111111;
+    --bs-font-sans-serif: "Inknut Antiqua", serif;
+    --bs-font-monospace: "Source Code Pro", sans-serif;
 }
 
 h1{
     font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    text-decoration-color: var(--bs-primary);
 
 }
 
 h2{
     font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    text-decoration-color: var(--bs-secondary);
 
 }
 
 h3{
     font-family: "Source Code Pro", sans-serif;
+    font-weight: 600;
+    text-decoration-color: var(--bs-purple);
 }
 
 p{
     font-family: "Source Code Pro", sans-serif;
+    font-weight: 600;
+    text-decoration-color: var(--bs-dark);
 }
+
+/* STYLING NAV LINKS Link, Hover, Visited, Active */
+
+.navbar-nav .nav-link{
+    background-color: var(--bs-primary);
+    color: var(--bs-dark);
+    font-weight: 600;
+    
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+    background-color: var(--bs-purple);
+    color: var(--bs-dark);
+    font-weight: 600;
+}
+
+ a {
+    color:inherit;
+ }
+
+/* STYLING NAV LINKS Link, Hover, Visited, Active */
+
+.homebanner a{
+    background-color: var(--bs-secondary);
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-family: var(--bs-font-monospace);
+    
+}
+
+.homebanner a:hover,
+.homebanner a:focus,
+.homebanner a:active {
+    background-color: var(--bs-purple);
+    color: var(--bs-dark);
+    font-weight: 600;
+    font-family: var(--bs-font-monospace);
+}
+
+ a {
+    color:inherit;
+ }
+
+ /* STYLING HOME BANNER TEXT */
+ .lauraclow {
+    color: #EF6115;
+
+ }
+
+ /* STYLING ABOUT ME TEXT */
+ .IAM {
+    color: #EF6115;
+    font-weight: 600;
+
+ }
