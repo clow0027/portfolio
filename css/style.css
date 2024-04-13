@@ -1,0 +1,26 @@
+:root{
+    --bs-primary:#EF6115;
+    --bs-secondary: #649420;
+    --bs-purple: #D477DF;
+    --bs-light: #EECFBC;
+    --bs-dark:#111111;
+    --bs-font-sans-serif: "Inknut Antiqua", serif;
+}
+
+h1{
+    font-family: "Inknut Antiqua", serif;
+
+}
+
+h2{
+    font-family: "Inknut Antiqua", serif;
+
+}
+
+h3{
+    font-family: "Source Code Pro", sans-serif;
+}
+
+p{
+    font-family: "Source Code Pro", sans-serif;
+}
