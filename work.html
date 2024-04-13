@@ -250,7 +250,20 @@
             <div class="col s12 m6 l3">
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/FruityMoodboard-500_x_300.jpeg">
+                  <picture>
+                    <!-- 576px viewport -->
+                    <source srcset="images/FruityMoodBoard-576_x_378.png,
+                                    images/FruityMoodBoard-1152_x_757.png 2x,
+                                    images/FruityMoodBoard-1728_x_1136.png 3x"
+                            media="(min-width:576px)" />
+                    <!-- 390px viewport -->
+                    <source srcset="images/FruityMoodBoard-390_x_256.png,
+                                    images/FruityMoodBoard-780_x_513.png 2x,
+                                    images/FruityMoodBoard-1170_x_769.png 3x"
+                            media="(min-width:390px)" />
+                    <!-- Default source -->
+                    <img src="images/FruityMoodBoard-576_x_378.png" alt="moodboard for 'Fruity' company" class="img-fluid activator">
+                  </picture>
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Fruity Moodboard<i class="material-icons right"><i class="bi bi-plus-circle-fill"></i></i></span>
@@ -264,7 +277,20 @@
             <div class="col s12 m6 l3">
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/FruityPost-500_x_300.jpeg">
+                  <picture>
+                    <!-- 576px viewport -->
+                    <source srcset="images/FruityPost-576_x_414.png,
+                                    images/FruityPost-1152_x_831.png 2x,
+                                    images/FruityPost-1728_x_1246.png 3x"
+                            media="(min-width:576px)" />
+                    <!-- 390px viewport -->
+                    <source srcset="images/FruityPost-390_x_281.png,
+                                    images/FruityPost-780_x_562.png 2x,
+                                    images/FruityPost-1170_x_843.png 3x"
+                            media="(min-width:390px)" />
+                    <!-- Default source -->
+                    <img src="images/FruityPost-576_x_414.png" alt="instagram post for 'Fruity' company" class="img-fluid activator">
+                  </picture>
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Fruity Post<i class="material-icons right"><i class="bi bi-plus-circle-fill"></i></i></span>
