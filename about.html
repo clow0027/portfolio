@@ -180,10 +180,23 @@
 
             <div class="col-8 col-md-4">
               <div class="card rounded-0 border-0">
-                <img src="/images/Writing-500_x_500.png" class="card-img-top rounded-0"
-                  alt="digital drawing of love potion">
+                <picture>
+                  <!-- 576px viewport -->
+                  <source srcset="images/embroidery-576_x_576.png,
+                                  images/embroidery-1152_x_1152.png 2x,
+                                  images/embroidery-1728_x_1728.png 3x"
+                          media="(min-width:576px)" />
+                  <!-- 390px viewport -->
+                  <source srcset="images/embroidery-390_x_390.png,
+                                  images/embroidery-780_x_780.png 2x,
+                                  images/embroidery-1170_x_1170.png 3x"
+                          media="(min-width:390px)" />
+                  <!-- Default source -->
+                  <img src="images/embroidery-576_x_576.png" class="card-img-top rounded-0"
+                  alt="embroidery icon" class="img-fluid activator">
+                </picture>
                 <div class="card-body">
-                  <h3 class="card-title">Writing</h3>
+                  <h3 class="card-title">Embroidery</h3>
                 </div>
               </div>
             </div>
