@@ -40,3 +40,5 @@ Creating my web portfolio provided invaluable lessons, including:
 
 ## Figma Link
 [Figma Prototype](https://www.figma.com/file/aI3G2sjnBw0QExqyCCwsR2/clow_laura_webdev_interactive-prototype?type=design&t=3vCl4fSfeaUaS0DB-6)
+
+[Figma Profile](https://www.figma.com/files/team/1346605144052496486/clow0027's-team?fuid=1346605139310189572)
