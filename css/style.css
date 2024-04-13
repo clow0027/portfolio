@@ -34,7 +34,7 @@ p{
     text-decoration-color: var(--bs-dark);
 }
 
-/* STYLING NAV LINKS Link, Hover, Visited, Active */
+/* STYLING NAV LINKS: Link, Hover, Visited, Active */
 
 .navbar-nav .nav-link{
     background-color: var(--bs-primary);
@@ -55,13 +55,14 @@ p{
     color:inherit;
  }
 
-/* STYLING NAV LINKS Link, Hover, Visited, Active */
+/* STYLING HOME BANNER: Link, Hover, Visited, Active */
 
 .homebanner a{
     background-color: var(--bs-secondary);
     color: var(--bs-dark);
-    font-weight: 600;
+    font-weight: 700;
     font-family: var(--bs-font-monospace);
+    font-size: 1em;
     
 }
 
@@ -70,8 +71,9 @@ p{
 .homebanner a:active {
     background-color: var(--bs-purple);
     color: var(--bs-dark);
-    font-weight: 600;
+    font-weight: 700;
     font-family: var(--bs-font-monospace);
+    font-size: 1em;
 }
 
  a {
@@ -88,5 +90,4 @@ p{
  .IAM {
     color: #EF6115;
     font-weight: 600;
-
  }
