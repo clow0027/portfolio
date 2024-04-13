@@ -148,3 +148,41 @@ textarea{
     color: var(--bs-dark);
     font-size: 1.5em;
 }
+
+/* Styles testimonial link */
+
+#testimonials a{
+    font-weight: 700;
+    color: var(--bs-primary);
+}
+
+#testimonials a:hover,
+#testimonials a:focus,
+#testimonials a:active,
+#testimonials a:visited{
+    font-weight: 700;
+    color: var(--bs-purple);
+}
+
+/* Styles footer links */
+
+.link-secondary a{
+    font-weight: 700;
+    color: var(--bs-primary);
+}
+.link-secondary a:hover,
+.link-secondary a:focus,
+.link-secondary a:active,
+.link-secondary a:visited,{
+    font-weight: 700;
+    color: var(--bs-purple);
+}
+
+footer h1{
+    color: var(--bs-primary);
+}
+footer p{
+    font-weight: 700;
+    color: var(--bs-primary);
+}
+
