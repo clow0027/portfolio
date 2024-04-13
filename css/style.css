@@ -18,20 +18,47 @@ h1{
 h2{
     font-family: "Inknut Antiqua", serif;
     font-weight: 500;
-    text-decoration-color: var(--bs-secondary);
+    color: var(--bs-secondary);
 
 }
 
 h3{
     font-family: "Source Code Pro", sans-serif;
     font-weight: 600;
-    text-decoration-color: var(--bs-purple);
+    color: var(--bs-purple);
 }
 
 p{
     font-family: "Source Code Pro", sans-serif;
     font-weight: 600;
     text-decoration-color: var(--bs-dark);
+}
+
+
+/* Styles skip links */
+.skip-links a {
+    background-color: white;
+    color:black;
+    padding: .5em 1em;
+  }
+  
+/* Styles Back to top button */
+ 
+.backtop {
+    background-color: var(--bs-primary);
+    color: var(--bs-dark);
+    font-weight: 600;
+    padding: 0.5em;
+    
+}
+
+.backtop:hover,
+.backtop:focus,
+.backtop:active {
+    background-color: var(--bs-purple);
+    color: var(--bs-dark);
+    font-weight: 600;
+    
 }
 
 /* STYLING NAV LINKS: Link, Hover, Visited, Active */
@@ -50,10 +77,6 @@ p{
     color: var(--bs-dark);
     font-weight: 600;
 }
-
- a {
-    color:inherit;
- }
 
 /* STYLING HOME BANNER: Link, Hover, Visited, Active */
 
@@ -76,9 +99,7 @@ p{
     font-size: 1em;
 }
 
- a {
-    color:inherit;
- }
+
 
  /* STYLING HOME BANNER TEXT */
  .lauraclow {
@@ -91,3 +112,23 @@ p{
     color: #EF6115;
     font-weight: 600;
  }
+
+ /* STYLING SUBMIT BUTTON */
+ .submit{
+    background-color: var(--bs-secondary);
+    color: var(--bs-dark);
+    font-weight: 700;
+    font-family: var(--bs-font-monospace);
+    font-size: 1em;
+    
+}
+
+.submit:hover,
+.submit:focus,
+.submit:active {
+    background-color: var(--bs-purple);
+    color: var(--bs-dark);
+    font-weight: 700;
+    font-family: var(--bs-font-monospace);
+    font-size: 1em;
+}
