@@ -165,17 +165,23 @@ textarea{
 }
 
 /* Styles footer links */
-
-.link-secondary a{
-    font-weight: 700;
+.contact a,
+.socials a {
+    font-weight: 600;
     color: var(--bs-primary);
+    text-decoration-color: var(--bs-primary);
 }
-.link-secondary a:hover,
-.link-secondary a:focus,
-.link-secondary a:active,
-.link-secondary a:visited,{
-    font-weight: 700;
+.contact a:hover,
+.contact a:focus,
+.contact a:active,
+.contact a:visited,
+.socials a:hover,
+.socials a:focus,
+.socials a:active,
+.socials a:visited {
+    font-weight: 600;
     color: var(--bs-purple);
+    text-decoration-color: var(--bs-primary); 
 }
 
 footer h1{
