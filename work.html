@@ -219,7 +219,20 @@
             <div class="col s12 m6 l3">
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/FruityMission-500_x_300.jpeg">
+                  <picture>
+                    <!-- 576px viewport -->
+                    <source srcset="images/FruityMission-576_x_345.png,
+                                    images/FruityMission-1152_x_691.png 2x,
+                                    images/FruityMission-1728_x_1036.png 3x"
+                            media="(min-width:576px)" />
+                    <!-- 390px viewport -->
+                    <source srcset="images/FruityMission-390_x_234.png,
+                                    images/FruityMission-780_x_468.png 2x,
+                                    images/FruityMission-1170_x_702.png 3x"
+                            media="(min-width:390px)" />
+                    <!-- Default source -->
+                    <img src="images/FruityMission-576_x_345.png" alt="mission and brand colors for 'Fruity' company" class="img-fluid activator">
+                  </picture>
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Fruity Mission<i class="material-icons right"><i class="bi bi-plus-circle-fill"></i></i></span>
